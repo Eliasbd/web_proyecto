@@ -9,9 +9,18 @@ body{
     
 }
 
+nav .me{
+    max-width: 50%;
+    display: none;
+}
+
 header{
     background-color:rgb(78, 67, 67);
     height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
   
 }
 
@@ -22,8 +31,8 @@ nav{
     
     padding: 5px;
     box-sizing: border-box;
-  
-    
+    top: 0%;
+    position: fixed;
    
     
 }
@@ -89,7 +98,7 @@ ul li{
 
 .main{
     width: 100%;
-   
+    
     height: 400px;
     margin-top: 12%;
     margin-bottom: 12%;
@@ -115,19 +124,1023 @@ ul li{
     float: left;
     margin-left: 1%;
     margin-right: 1%;
-    font-size: 40px;
+    font-size: 30px;
     padding: 50px;
     box-sizing: border-box;
     text-align: center;
+    
 
     
 }
 
 
-.carusel{
-    height: 500px;
-    background-color: tomato;
+footer{
+    background-color: rgb(78, 67, 67);
+    height: 200px;
+    margin-top: 5%;
 }
+
+footer .footer1{
+    width: 50%;
+    float: left;
+}
+
+footer img{
+        max-width : 50px;
+        margin: 2%;
+        float: left;
+}
+
+footer input{
+    height: 100px;
+    margin: 2%;
+    float: left;
+}
+
+footer .btn{
+    border: 3px solid rgb(41, 41, 201);
+    background-color: rgb(41, 41, 201);
+    margin: 3%;
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+   
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+.social{
+
+    display: block;
+    width: 100%;
+    margin-left: 50%;
+    
+
+}
+
+.footer2{
+    width: 50%;
+    float: left;
+}
+.copy{
+    display: block;
+    width: 50%;
+    font-size: 20px;
+    color: lightgray;
+}
+
+/*RESPONSIVE WEB DESIGN*/
+
+@media(max-width : 1366px){
+    nav .me{
+        max-width: 50%;
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    
+    header{
+        background-color:rgb(78, 67, 67);
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+      
+    }
+    
+    
+    nav{
+        
+        width: 20%;
+        height: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        top: 12%;
+        left: -100%;
+        position: fixed;
+       
+        
+    }
+    
+    ul li{
+        list-style: none;
+        width: 100%;
+    }
+    
+    .menu > li{
+        
+        float: left;
+    }
+    
+    .menu li a{
+        background-color: rgb(190, 22, 34);
+        text-decoration: none;
+        padding: 10px 12px;
+        display: block;
+     
+       top: 0px;
+        color: white;
+        font-size: 20px;
+        
+        
+    }
+    
+    .menu li a:hover {
+        background-color: rgb(78, 67, 67);
+    }
+    
+    .menu li ul{
+        display: none;
+        position: absolute;
+        min-width:140px;
+        top: 14%;
+    }
+    
+    .menu li:hover > ul{
+       float: left;
+    }
+    
+    .menu li ul li {
+        position: relative;
+        left: 190%;
+        
+    }
+    
+    .menu li ul li ul {
+        right:-140px;
+        top:10px;
+        
+    }
+    
+    .white{
+        margin-right: 0%;
+    }
+    
+    .main{
+        width: 100%;
+        height: 600px;
+      
+    }
+
+    .art1{
+        width: 48%;
+        height: 100%;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        
+    }
+
+    .firm{
+        max-width: 60%;
+        margin-top: 30%;
+    }
+
+    .art2{
+        color: rgb(190, 22, 34);
+    width: 48%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+    .parra{
+        margin-top: 30%;
+    }
+
+
+    footer{
+        background-color: rgb(78, 67, 67);
+        height: 150px;
+        margin-top: 5%;
+    }
+    
+    footer .footer1{
+        width: 50%;
+        float: left;
+    }
+    
+    footer img{
+            max-width : 15px;
+            margin: 2%;
+            float: left;
+    }
+    
+    footer input{
+        height: 40px;
+        margin: 2%;
+        float: left;
+    }
+    
+    footer .btn{
+        border: 3px solid rgb(41, 41, 201);
+        background-color: rgb(41, 41, 201);
+        margin: 3%;
+        float: left;
+        padding: 5px;
+        text-decoration: none;
+       
+    }
+    
+    .btn a{
+        color: white;
+        text-decoration: none;
+        float: left;
+    }
+    
+    .social{
+    
+        display: block;
+        width: 100%;
+        margin-left: 50%;
+        
+    
+    }
+    
+    .footer2{
+        width: 50%;
+        float: left;
+    }
+    .copy{
+        display: block;
+        width: 50%;
+        font-size: 20px;
+        color: lightgray;
+    }
+
+
+
+
+
+}
+
+
+@media(max-width : 1024px){
+    nav .me{
+        max-width: 50%;
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    
+    header{
+        background-color:rgb(78, 67, 67);
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+      
+    }
+    
+    
+    nav{
+        
+        width: 40%;
+        height: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        top: 12%;
+        left: -100%;
+        position: fixed;
+       
+        
+    }
+    
+    ul li{
+        list-style: none;
+        width: 100%;
+    }
+    
+    .menu > li{
+        
+        float: left;
+    }
+    
+    .menu li a{
+        background-color: rgb(190, 22, 34);
+        text-decoration: none;
+        padding: 10px 12px;
+        display: block;
+     
+       top: 0px;
+        color: white;
+        font-size: 20px;
+        
+        
+    }
+    
+    .menu li a:hover {
+        background-color: rgb(78, 67, 67);
+    }
+    
+    .menu li ul{
+        display: none;
+        position: absolute;
+        min-width:140px;
+        top: 14%;
+    }
+    
+    .menu li:hover > ul{
+       float: left;
+    }
+    
+    
+    .menu li ul li {
+        position: relative;
+        left: 290%;
+        
+    }
+    
+    .menu li ul li ul {
+        right:-140px;
+        top:10px;
+        
+    }
+    
+    .white{
+        margin-right: 0%;
+    }
+    
+    .main{
+        width: 100%;
+        height: 600px;
+      
+    }
+
+    .art1{
+        width: 48%;
+        height: 100%;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        
+    }
+
+    .firm{
+        max-width: 60%;
+        margin-top: 30%;
+    }
+
+    .art2{
+        color: rgb(190, 22, 34);
+    width: 48%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+    .parra{
+        margin-top: 30%;
+    }
+
+
+    footer{
+        background-color: rgb(78, 67, 67);
+        height: 190px;
+        margin-top: 5%;
+    }
+    
+    footer .footer1{
+        width: 50%;
+        float: left;
+    }
+    
+    footer img{
+            max-width : 15px;
+            margin: 2%;
+            float: left;
+    }
+    
+    footer input{
+        height: 40px;
+        margin: 2%;
+        float: left;
+    }
+    
+    footer .btn{
+        border: 3px solid rgb(41, 41, 201);
+        background-color: rgb(41, 41, 201);
+        margin: 3%;
+        margin-left: 15%;
+        
+        float: left;
+        padding: 5px;
+        text-decoration: none;
+       
+    }
+    
+    .btn a{
+        color: white;
+        text-decoration: none;
+        float: left;
+    }
+    
+    .social{
+    
+        display: block;
+        width: 100%;
+        margin-left: 50%;
+        
+    
+    }
+    
+    .footer2{
+        width: 50%;
+        float: left;
+    }
+    .copy{
+        display: block;
+        width: 50%;
+        font-size: 20px;
+        color: lightgray;
+    }
+
+}
+
+
+@media(max-width : 768px){
+    nav .me{
+        max-width: 50%;
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    
+    header{
+        background-color:rgb(78, 67, 67);
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+      
+    }
+    
+    
+    nav{
+        
+        width: 40%;
+        height: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        top: 12%;
+        left: -100%;
+        position: fixed;
+       
+        
+    }
+    
+    ul li{
+        list-style: none;
+        width: 100%;
+    }
+    
+    .menu > li{
+        
+        float: left;
+    }
+    
+    .menu li a{
+        background-color: rgb(190, 22, 34);
+        text-decoration: none;
+        padding: 10px 12px;
+        display: block;
+     
+       top: 0px;
+        color: white;
+        font-size: 20px;
+        
+        
+    }
+    
+    .menu li a:hover {
+        background-color: rgb(78, 67, 67);
+    }
+    
+    .menu li ul{
+        display: none;
+        position: absolute;
+        min-width:140px;
+        top: 14%;
+    }
+    
+    .menu li:hover > ul{
+       float: left;
+    }
+    
+    .menu li ul li {
+        position: relative;
+        left: 215%;
+        
+    }
+    
+    .menu li ul li ul {
+        right:-140px;
+        top:10px;
+        
+    }
+    
+    .white{
+        margin-right: 0%;
+    }
+    
+    .main{
+        width: 100%;
+        height: 600px;
+      
+    }
+
+    .art1{
+        width: 48%;
+        height: 100%;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        
+    }
+
+    .firm{
+        max-width: 60%;
+        margin-top: 30%;
+    }
+
+    .art2{
+        color: rgb(190, 22, 34);
+    width: 48%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+    .parra{
+        margin-top: 30%;
+    }
+
+
+    footer{
+        background-color: rgb(78, 67, 67);
+        height: 230px;
+        margin-top: 5%;
+    }
+    
+    footer .footer1{
+        width: 50%;
+        float: left;
+    }
+    
+    footer img{
+            max-width : 15px;
+            margin: 2%;
+            float: left;
+    }
+    
+    footer input{
+        height: 40px;
+        margin: 2%;
+        float: left;
+    }
+    
+    footer .btn{
+        border: 3px solid rgb(41, 41, 201);
+        background-color: rgb(41, 41, 201);
+        margin: 3%;
+        margin-left: 2%;
+        
+        float: left;
+        padding: 5px;
+        text-decoration: none;
+       
+    }
+    
+    .btn a{
+        color: white;
+        text-decoration: none;
+        float: left;
+    }
+    
+    .social{
+    
+        display: block;
+        width: 100%;
+        margin-left: 50%;
+        
+    
+    }
+    
+    .footer2{
+        width: 50%;
+        float: left;
+    }
+    .copy{
+        display: block;
+        width: 50%;
+        font-size: 20px;
+        color: lightgray;
+    }
+
+}
+
+
+@media(max-width : 640px){
+    nav .me{
+        max-width: 20%;
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    
+    header{
+        background-color:rgb(78, 67, 67);
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+      
+    }
+    
+    
+    nav{
+        
+        width: 40%;
+        height: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        top: 12%;
+        left: -100%;
+        position: fixed;
+       
+        
+    }
+    
+    ul li{
+        list-style: none;
+        width: 100%;
+    }
+    
+    .menu > li{
+        
+        float: left;
+    }
+    
+    .menu li a{
+        background-color: rgb(190, 22, 34);
+        text-decoration: none;
+        padding: 10px 12px;
+        display: block;
+     
+       top: 0px;
+        color: white;
+        font-size: 20px;
+        
+        
+    }
+    
+    .menu li a:hover {
+        background-color: rgb(78, 67, 67);
+    }
+    
+    .menu li ul{
+        display: none;
+        position: absolute;
+        min-width:140px;
+        top: 14%;
+    }
+    
+    .menu li:hover > ul{
+       float: left;
+    }
+    
+    .menu li ul li {
+        position: relative;
+        left: 180%;
+        
+    }
+    
+    .menu li ul li ul {
+        right:-140px;
+        top:10px;
+        
+    }
+    
+    .white{
+        margin-right: 0%;
+    }
+    
+    .main{
+        width: 100%;
+        height: 600px;
+      
+    }
+
+    .art1{
+        width: 48%;
+        height: 100%;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        
+    }
+
+    .firm{
+        max-width: 60%;
+        margin-top: 30%;
+    }
+
+    .art2{
+        color: rgb(190, 22, 34);
+    width: 48%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+    .parra{
+        margin-top: 30%;
+    }
+
+
+    footer{
+        background-color: rgb(78, 67, 67);
+        height: 230px;
+        margin-top: 5%;
+    }
+    
+    footer .footer1{
+        width: 50%;
+        float: left;
+    }
+    
+    footer img{
+            max-width : 15px;
+            margin: 2%;
+            float: left;
+    }
+    
+    footer input{
+        height: 40px;
+        margin: 2%;
+        float: left;
+    }
+    
+    footer .btn{
+        border: 3px solid rgb(41, 41, 201);
+        background-color: rgb(41, 41, 201);
+        margin: 3%;
+        margin-left: 2%;
+        
+        float: left;
+        padding: 5px;
+        text-decoration: none;
+       
+    }
+    
+    .btn a{
+        color: white;
+        text-decoration: none;
+        float: left;
+    }
+    
+    .social{
+    
+        display: block;
+        width: 100%;
+        margin-left: 50%;
+        
+    
+    }
+    
+    .footer2{
+        width: 50%;
+        float: left;
+    }
+    .copy{
+        display: block;
+        width: 50%;
+        font-size: 20px;
+        color: lightgray;
+    }
+
+}
+
+
+
+
+@media(max-width : 360px){
+    nav .me{
+        max-width: 10%;
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    
+    header{
+        background-color:rgb(78, 67, 67);
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+      
+    }
+    
+    
+    nav{
+        
+        width: 40%;
+        height: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        top: 12%;
+        left: -100%;
+        position: fixed;
+       
+        
+    }
+    
+    ul li{
+        list-style: none;
+        width: 100%;
+    }
+    
+    .menu > li{
+        
+        float: left;
+    }
+    
+    .menu li a{
+        background-color: rgb(190, 22, 34);
+        text-decoration: none;
+        padding: 10px 12px;
+        display: block;
+     
+       top: 0px;
+        color: white;
+        font-size: 20px;
+        
+        
+    }
+    
+    .menu li a:hover {
+        background-color: rgb(78, 67, 67);
+    }
+    
+    .menu li ul{
+        display: none;
+        position: absolute;
+        min-width:140px;
+        top: 14%;
+    }
+    
+    .menu li:hover > ul{
+       float: left;
+    }
+    
+    .menu li ul li {
+        position: relative;
+        left: 140%;
+        
+    }
+    
+    .menu li ul li ul {
+        right:-140px;
+        top:10px;
+        
+    }
+    
+    .white{
+        margin-right: 0%;
+        width: 25%;
+    }
+    
+    .main{
+        width: 100%;
+        height: 500px;
+        
+      
+    }
+
+    .art1{
+        width: 98%;
+        height: 100%;
+       
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 0%;
+        
+    }
+
+    .firm{
+        max-width: 80%;
+        
+    }
+
+    .art2{
+        display: none;
+    }
+
+    carousel slide{
+        display: none;
+    }
+
+
+    footer{
+        background-color: rgb(78, 67, 67);
+        height: 150px;
+        margin-top: 5%;
+    }
+    
+    footer .footer1{
+        width: 50%;
+        float: left;
+    }
+    
+    footer img{
+            max-width : 8px;
+            margin: 2%;
+            float: left;
+    }
+    
+    footer input{
+        height: 20px;
+       
+        margin: 2%;
+        float: left;
+    }
+    
+    footer .btn{
+        border: 3px solid rgb(41, 41, 201);
+        background-color: rgb(41, 41, 201);
+        margin: 1%;
+        margin-left: 2%;
+        
+        float: left;
+        padding: 2px;
+        text-decoration: none;
+       
+    }
+    
+    .btn a{
+        color: white;
+        text-decoration: none;
+        float: left;
+    }
+    
+    .social{
+        float: left;
+        display: block;
+        width: 100%;
+        margin-left: 50%;
+        
+    
+    }
+    
+    .footer2{
+        width: 50%;
+        float: left;
+    }
+    .copy{
+        display: block;
+        width: 50%;
+        font-size: 10px;
+        color: lightgray;
+    }
+
+}
+
+
+
 
 
 

@@ -15,15 +15,30 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 </head>
 <body>
+
+
+        
+
+        </div>
         <header>
+                <img src="img/logo/white.png" alt="" width= "300px" class="white" >
+        </header>
+ 
                 <nav>
+                        <div class="me">
+                                <img src="img/menu-button-of-three-horizontal-lines.svg" alt="" width="60px">
+                        </div>
+
+
+
                         <div class="head">
                                 <ul class="menu">
                                     <li><a href="">Home</a></li>
                                     <li><a href="">News</a>
                                         <ul>
-                                            <li><a href="">Tutorials</a></li>
-                                            <li><a href="">Blog</a></li>
+                                            <li><a href="#">Tutorials</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                           
                                       
                                         </ul>
                                     </li>
@@ -37,15 +52,14 @@
                                     </li>
                                     <li><a href="">Gallery</a></li>
                                     <li><a href="">Contact Me</a></li>
-                                    <li><a href="">InfAbout</a></li>
+                      
                                 </ul>
                             </div>
                 </nav>
 
 
-                <img src="img/logo/white.png" alt="" width= "300px" class="white">
-        </header>
-
+               
+      
 
        <section class="main">
             <article class="art1">
@@ -57,19 +71,20 @@
 
             <article class="art2">
 
-                <h1>Welcome to my WORLD!!!</h1>
+                <div class="parra"> 
+                    <h1>Welcome to my WORLD!!!</h1>
                 <br>
                 <br>
 
                <p>Bienvenidos a mi pequeño rincón en la web, Aquí podran apreciar gran 
                     diversidad de elementos acerca de mí mundo.
                 </p>
+                </div>
             </article>
+        </section>
 
-
-       </section>
-
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -80,14 +95,27 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <center> <img src="img/my photos/IMG_20180105_193842_804.jpg" alt=""></center>
-                   
+                    <center><img src="img/my photos/IMG_20180105_193842_804.jpg" alt=""  width="500px"></center>
+                    <div class="carousel-caption">
+                        <h3>Quien es Jb?</h3>
+                        <p>La historia detras de todo</p>
+                    </div>
                 </div>
+          
                 <div class="item">
-                    <img src="images/image-2.jpeg" alt="">
+                   <center> <img src="img/back.jpg" alt="" width="915px"></center>
+                    <div class="carousel-caption">
+                        <h3>Contactame!</h3>
+                        
+                    </div>
                 </div>
+                
                 <div class="item">
-                    <img src="images/image-3.jpeg" alt="">
+                 <center>   <img src="img/optimizar-canal-youtube.jpg" alt="" ></center>
+                    <div class="carousel-caption">
+                        <h3 >Visita mi Canal de Youtube</h3>
+                       
+                    </div>
                 </div>
             </div>
         
@@ -102,12 +130,49 @@
             </a>
         </div>
 
+
+        <footer>
+
+            <div class="footer1">
+                    <a href="#"><img src="img/like.svg" alt=""  title="Like"></a>
+                    <a href="#"><img src="img/share.svg" alt=""  title="Share on Facebook "></a>
+        
+        
+                    <input type="text"  name="comentario" size="50" maxlength="100" placeholder="Ingresa tu comentario" >
+        
+                    <div class="btn">
+                        <a href="#" title="Enviar comentario">Comentar</a>
+                    </div>
+            </div>
+          
+
+        
+
+           <div class="footer2">
+                <div class="social">
+                
+                        <ul>
+                            <li><a href="#"><img src="img/facebook (1).svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/instagram.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/linkedin.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/twitter (1).svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/youtube.svg" alt=""></a></li>
+                        </ul>
+        
+                    </div>
+        
+           </div>
+            <div class="copy">
+                <p>© Derechos Reservados 2018 Jared Barrera Derechos de Contenido Reservados.</p>
+            </div>
+        </footer>
        
 
         
 
 
-   
+   <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="js/script.js"></script>
     
 </body>
 </html>
